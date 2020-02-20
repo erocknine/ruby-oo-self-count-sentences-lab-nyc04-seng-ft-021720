@@ -30,7 +30,6 @@ class String
     @count_list = self.split(/[!?.]/)
     @count = @count_list.select{|string| string.length>1}
     @count.length
-    
   end
   
   
